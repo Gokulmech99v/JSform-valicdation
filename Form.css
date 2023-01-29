@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.form{
+    background-color: rgb(35, 187, 192);
+    width: 400px;
+    height: 750px;
+    text-align: center;
+    box-shadow: 0px 10px 20px black;
+    border-radius: 20px;
+    transition: all .9s;
+  
+}
+.form input select{
+    padding: 20px;
+}
+ .head h2{
+    padding: 20px;
+    background-color: cadetblue;
+    color: white;
+    text-shadow: 5px 10px 15px black;
+    text-transform: uppercase;
+    /* border-radius: 10px; */
+}
+.full{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding: 0px 30px;
+    position: relative;
+}
+.ful{
+    display: flex;
+    justify-content: center;
+    
+    /* position: absolute; */
+}
+.box{
+    padding: 10px;
+
+}
+.ful label{
+    color: white;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+}
+.full label{
+    font-weight: bolder;
+    color: white;
+    display: block;
+    outline: none;
+    padding: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.full input{
+    outline: none;
+    border-radius: 6px;
+    padding: 8px;
+    /* display: block; */
+    width:100%;
+    /* padding; */
+}
+p {
+    color: red;
+    font-size: 15px
+}
+p{
+    position: absolute;
+    /* right: 10px; */
+}
+.fu input{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    width: 20%;
+    color: white;
+    background-color: coral;
+    border-radius: 5px;
+    transition: all .5s;
+}
+.box p {
+    /* padding: 10px; */
+    margin-left: 25px;
+}
+.form input:focus{
+    background-color: rgb(184, 214, 214);
+}
